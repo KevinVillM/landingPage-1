@@ -6544,3 +6544,27 @@
 .icon-zoom_out_map:before {
     content: "\e56b";
 }
+/* Estilos para el contenedor del logo */
+.logo-container {
+    text-align: center; /* Alinea el logo en el centro horizontalmente */
+    padding: 20px; /* Añade un espacio alrededor del logo */
+  }
+  
+/* Estilos para la imagen del logo */
+.logo-image {
+    max-width: 100px; /* Cambia el ancho máximo a tu preferencia */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para el hover (cambio al pasar el mouse por encima) */
+  .logo-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-color: #ff5733;
+  }
+  
